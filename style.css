@@ -160,7 +160,7 @@ body {
 
 /* ---------- Kontakt, MailTo & Downloads ---------- */
 #contact{
-    margin-top: -6%;
+    margin-top: -5%;
 }
 
 #contact p
@@ -175,7 +175,7 @@ body {
 }
 
 a.mailto-link {
-    color: lightgrey;
+    color: white;
     transition: filter 0.5s ease;
     text-decoration: none;
     padding-right: 2%;
@@ -187,10 +187,10 @@ a.mailto-link:hover {
 /* ---------- Veranstalter ---------- */
 
 .downloads-container {
-    padding-top: 15%;
+    padding-top: 14%;
     display: flex;
     justify-content: center;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .download-button:hover {
     background-color: #555;
@@ -199,7 +199,7 @@ a.mailto-link:hover {
 .download-button {
     font-size: 120%;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     padding: 8px 16px;
     background-color: var(--bronze);
     color: white;
