@@ -7,10 +7,8 @@
   --cream: #f6f1e4;
   --bronze: #8a6a3d;
   --ink: #16140f;
-
   --font-display: "Playfair Display", Georgia, serif;
   --font-body: "Jost", "Helvetica Neue", Arial, sans-serif;
-
   --radius: 2px;
 }
 
@@ -101,6 +99,7 @@ body {
 /* ---------- Layout card ---------- */
 .card {
   max-width: 66%;
+  min-width: 400px;
   margin: 0 auto;
   padding: 5.5% 1.5% 4%;
 }
@@ -140,8 +139,8 @@ body {
 
 /* ---------- Description ---------- */
 .description {
-  max-width: 100%;
-  margin: 0 auto 7% 50%;
+  width: fit-content;
+  margin-left: auto;
   padding-top: 4%;
   font-size: 120%;
   font-weight: 300;
@@ -150,6 +149,7 @@ body {
 
 .description p {
   text-align: right;
+  max-width: 500px;
 }
 
 .description .italic {
@@ -160,7 +160,7 @@ body {
 
 /* ---------- Kontakt, MailTo & Downloads ---------- */
 #contact{
-    margin-top: -5%;
+    margin-top: -3%;
 }
 
 #contact p
@@ -168,26 +168,25 @@ body {
   text-align: left;
   font-family: var(--font-body);
   font-size: 160%;
-  letter-spacing: 12%;
+  letter-spacing: 10%;
   text-transform: uppercase;
   color: var(--gold-light);
-  opacity: 0.85;
 }
 
 a.mailto-link {
     color: white;
-    transition: filter 0.5s ease;
+    transition: filter 0.2s ease;
     text-decoration: none;
     padding-right: 2%;
 }
 a.mailto-link:hover {
-    filter: brightness(0.7);
+    filter: brightness(0.5);
 }
 
 /* ---------- Veranstalter ---------- */
 
 .downloads-container {
-    padding-top: 14%;
+    padding-top: 12%;
     display: flex;
     justify-content: center;
     margin-left: 2%;
